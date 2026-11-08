@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abayneh Abebe | Computer Science Student & Aspiring Software Engineer</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Personal portfolio of Abayneh Abebe, a Computer Science student at Mattu University, Ethiopia. Passionate about Software Engineering and AI/ML.">
+  <meta name="keywords" content="Abayneh Abebe, Computer Science, Mattu University, Ethiopia, Software Engineer, AI/ML, Full Stack Developer, React, Node.js, Python">
+  <meta name="author" content="Abayneh Abebe">
+  
+  <!-- OpenGraph Meta -->
+  <meta property="og:title" content="Abayneh Abebe | Software & AI/ML Engineer Portfolio">
+  <meta property="og:description" content="Discover technical skills, academic coursework, and software engineering projects by Abayneh Abebe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abay47.github.io/portfolio/">
+  <meta property="og:image" content="images/profile.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22bold%22 fill=%22%233b82f6%22>A</text></svg>">
+</head>
+<body>
+  <!-- Ambient Lights -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Abayneh Abebe Home">
+        <span class="logo-symbol"><img src="logo.jpg" alt=""></img></span>
+        <span class="logo-text">Abayneh Abebe</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#interests" class="nav-link">Interests</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-action">
+        <a href="#contact" class="btn btn-outline btn-sm">Get in Touch</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Computer Science Student &bull; Mattu University</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Abayneh Abebe</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            Aspiring <strong class="text-highlight">Software Engineer</strong> &amp; <strong class="text-highlight">AI/ML Engineer</strong> based in Ethiopia. Passionate about architecting reliable software, exploring intelligent machine learning algorithms, and engineering meaningful digital solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#cv-modal" class="btn btn-secondary" id="openCvBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <div class="hero-meta-row">
+            <div class="meta-item">
+              <span class="meta-label">Location:</span>
+              <span class="meta-value">Ethiopia</span>
+            </div>
+            <div class="meta-divider" aria-hidden="true">&bull;</div>
+            <div class="meta-item">
+              <span class="meta-label">Institution:</span>
+              <span class="meta-value">Mattu University</span>
+            </div>
+            <div class="meta-divider" aria-hidden="true">&bull;</div>
+            <div class="meta-item">
+              <span class="meta-label">GitHub:</span>
+              <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="meta-value link">@Abay47</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="image-frame-backdrop"></div>
+          <div class="image-frame">
+            <img src="profileHD.jpg" alt="Abayneh Abebe" class="profile-img">
+          </div>
+          <div class="floating-badge badge-status">
+            <span class="pulse-indicator"></span>
+            <span>Open to Internships &amp; Projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Background &amp; Journey</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to mastering computer science foundations and transforming theoretical knowledge into reliable software.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card">
+            <h3 class="card-title">My Journey into Computer Science</h3>
+            <p class="text-paragraph">
+              My passion for technology began with a fascination for how logic and structured thinking can create tools that empower everyday lives. Choosing to study Computer Science at <strong>Mattu University</strong> has provided me with a rigorous foundation in algorithms, system architecture, and computational problem-solving.
+            </p>
+            <p class="text-paragraph">
+              Throughout my academic studies, I have delved deeply into both frontend interactivity and backend server environments. Rather than relying on surface-level templates, I believe in understanding what happens under the hood—from database indexes and concurrency to modern reactive user interfaces.
+            </p>
+            
+            <div class="bio-highlights">
+              <div class="highlight-box">
+                <span class="highlight-number">01</span>
+                <div>
+                  <h4 class="highlight-heading">Algorithmic Problem Solving</h4>
+                  <p class="highlight-desc">Strong foundation in data structures, time complexity analysis, and modular software design.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-number">02</span>
+                <div>
+                  <h4 class="highlight-heading">Full-Stack Exploration</h4>
+                  <p class="highlight-desc">Hands-on experience building full-stack web platforms using React, Node.js, PHP, and SQL/NoSQL databases.</p>
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <span class="highlight-number">03</span>
+                <div>
+                  <h4 class="highlight-heading">Artificial Intelligence &amp; ML</h4>
+                  <p class="highlight-desc">Actively studying neural networks, data preprocessing, and machine learning pipelines in Python.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card goals-card">
+            <h3 class="card-title">Professional Goals</h3>
+            <p class="text-paragraph">
+              My ultimate ambition is to operate as a high-impact <strong>Software Engineer and AI/ML Engineer</strong>. I strive to contribute to large-scale engineering initiatives that address real-world socio-economic problems in Ethiopia and globally.
+            </p>
+            
+            <div class="learning-pledge">
+              <div class="pledge-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              </div>
+              <div>
+                <h4 class="pledge-title">Continuous Learning Commitment</h4>
+                <p class="pledge-text">"Software engineering is a marathon of learning. I invest dedicated hours each week to writing code, studying software architecture patterns, and reading technical research."</p>
+              </div>
+            </div>
+
+            <div class="quick-facts-list">
+              <div class="fact-row">
+                <span class="fact-name">University:</span>
+                <span class="fact-val">Mattu University</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-name">Major:</span>
+                <span class="fact-val">B.Sc. Computer Science</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-name">Location:</span>
+                <span class="fact-val">Ethiopia</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-name">Primary Focus:</span>
+                <span class="fact-val">Software Engineering &amp; AI/ML</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Organized by core domain. Transparent mastery milestones reflecting active practical application and continual growth.</p>
+        </div>
+
+    
+        <div class="skill-filters">
+    <button class="filter-btn active" data-filter="all">
+        All Domains
+    </button>
+
+    <button class="filter-btn" data-filter="frontend">
+        Frontend
+    </button>
+
+    <button class="filter-btn" data-filter="backend">
+        Backend
+    </button>
+
+    <button class="filter-btn" data-filter="languages">
+        Languages
+    </button>
+</div>
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Frontend -->
+          <div class="skill-card" data-category="frontend">
+            <div class="card-domain-header">
+              <span class="domain-tag">Frontend Development</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-stage">Core Foundation &amp; Semantics</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step filled"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS3 &amp; Responsive Layout</span>
+                <span class="skill-stage">Flexbox, Grid, Modern Layouts</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step filled"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <span class="skill-stage">Async/Await, DOM, Event-Driven</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React</span>
+                <span class="skill-stage">Hooks, State, Architecture</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-card" data-category="backend">
+            <div class="card-domain-header">
+              <span class="domain-tag">Backend Development</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-stage">REST APIs &amp; Server Logic</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">PHP</span>
+                <span class="skill-stage">Server-Side Scripts &amp; Routing</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-stage">Relational Schemas, Queries, Joins</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MongoDB</span>
+                <span class="skill-stage">Document Modeling &amp; Queries</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="card-domain-header">
+              <span class="domain-tag">Programming Languages</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-stage">Data Analysis, AI/ML Scripts</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Java</span>
+                <span class="skill-stage">OOP Principles, Collections, Threading</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-stage">Full-Stack Application Development</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step active"></span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git &amp; Version Control</span>
+                <span class="skill-stage">Branches, GitHub Collaboration</span>
+              </div>
+              <div class="skill-stages-bar">
+                <span class="step filled"></span><span class="step filled"></span><span class="step filled"></span><span class="step filled"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="learning-indicator-banner">
+          <span class="banner-title">Active Growth Roadmap:</span>
+          <span class="banner-text">Currently exploring Deep Learning frameworks (PyTorch), Docker containerization, and Microservices.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Featured Works</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Real-world applications and academic prototypes built to solve practical challenges with modern software architectures.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card-top">
+              <div class="project-tags">
+                <span>React</span> &bull; <span>Node.js</span> &bull; <span>MongoDB</span>
+              </div>
+              <span class="project-status-text">Full-Stack</span>
+            </div>
+            <h3 class="project-title">Mattu Campus Hub &amp; Resource Portal</h3>
+            <p class="project-description">A collaborative student portal designed for Mattu University students to share course notes, study resources, and university announcements.</p>
+            <div class="project-links">
+              <a href="https://github.com/Abay47/mattu-campus-hub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub Repo</a>
+              <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="btn btn-link btn-sm">Live Preview &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card-top">
+              <div class="project-tags">
+                <span>Python</span> &bull; <span>OpenCV</span> &bull; <span>Flask</span>
+              </div>
+              <span class="project-status-text">AI / Computer Vision</span>
+            </div>
+            <h3 class="project-title">Coffee Crop Disease Classifier</h3>
+            <p class="project-description">A computer vision prototype analyzing leaf images to identify crop rust and fungal infections in Ethiopian coffee agriculture.</p>
+            <div class="project-links">
+              <a href="https://github.com/Abay47/coffee-crop-disease-detector" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub Repo</a>
+              <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="btn btn-link btn-sm">Live Preview &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card-top">
+              <div class="project-tags">
+                <span>Node.js</span> &bull; <span>MySQL</span> &bull; <span>REST API</span>
+              </div>
+              <span class="project-status-text">Backend Service</span>
+            </div>
+            <h3 class="project-title">Secure Banking Ledger &amp; REST API</h3>
+            <p class="project-description">A high-integrity backend transaction ledger simulating concurrent transfers with strict ACID compliance and JWT security.</p>
+            <div class="project-links">
+              <a href="https://github.com/Abay47/secure-banking-ledger" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub Repo</a>
+              <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="btn btn-link btn-sm">Live Preview &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-card-top">
+              <div class="project-tags">
+                <span>PHP</span> &bull; <span>MySQL</span> &bull; <span>CSS3</span>
+              </div>
+              <span class="project-status-text">Academic Portal</span>
+            </div>
+            <h3 class="project-title">Student Record Management System</h3>
+            <p class="project-description">Database-driven university application managing course enrollments, attendance, and semester GPA calculation.</p>
+            <div class="project-links">
+              <a href="https://github.com/Abay47/student-management-system" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                GitHub Repo</a>
+              <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="btn btn-link btn-sm">Live Preview &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Academic Foundation</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Rigorous computer science curriculum grounding theoretical computer science and software development.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-top-row">
+            <div>
+              <span class="edu-institution">Mattu University</span>
+              <h3 class="edu-degree">Bachelor of Science in Computer Science</h3>
+            </div>
+            <div class="edu-meta-badge">
+              <span class="edu-location">Mattu, Ethiopia</span>
+              <span class="edu-duration">Undergraduate Degree &bull; Expected 2026</span>
+            </div>
+          </div>
+
+          <p class="edu-summary">
+            Immersed in an extensive four-year computer science curriculum with strong emphasis on algorithmic problem-solving, operating systems architecture, database management, and hands-on software development laboratories.
+          </p>
+
+          <div class="coursework-section">
+            <h4 class="coursework-title">Relevant Core Coursework</h4>
+            <div class="coursework-grid">
+              <div class="course-pill">Data Structures &amp; Algorithms</div>
+              <div class="course-pill">Object-Oriented Programming (Java)</div>
+              <div class="course-pill">Database Systems (MySQL)</div>
+              <div class="course-pill">Operating Systems Principles</div>
+              <div class="course-pill">Computer Networks &amp; Protocols</div>
+              <div class="course-pill">Software Engineering Methodologies</div>
+              <div class="course-pill">Web Programming &amp; Technologies</div>
+              <div class="course-pill">Artificial Intelligence Foundations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Career Interests -->
+    <section class="section interests-section" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Vision &amp; Focus</span>
+          <h2 class="section-title">Career Interests</h2>
+          <p class="section-subtitle">Key disciplines where I aim to innovate, engineer robust products, and create lasting technological impact.</p>
+        </div>
+
+        <div class="interests-grid">
+          <div class="interest-card">
+            <h3 class="interest-title">Software Engineering</h3>
+            <p class="interest-description">Designing scalable, fault-tolerant software systems with clean design patterns, modular architecture, and automated test pipelines.</p>
+          </div>
+          <div class="interest-card">
+            <h3 class="interest-title">Artificial Intelligence</h3>
+            <p class="interest-description">Exploring heuristic search, intelligent agent design, and cognitive architectures to solve complex non-deterministic problems.</p>
+          </div>
+          <div class="interest-card">
+            <h3 class="interest-title">Machine Learning</h3>
+            <p class="interest-description">Developing predictive models, data processing pipelines, and neural networks using Python and modern deep learning libraries.</p>
+          </div>
+          <div class="interest-card">
+            <h3 class="interest-title">Full-Stack Development</h3>
+            <p class="interest-description">Unifying seamless client-side user experiences with high-throughput backend services, database migrations, and clean RESTful APIs.</p>
+          </div>
+          <div class="interest-card">
+            <h3 class="interest-title">Cybersecurity</h3>
+            <p class="interest-description">Enforcing defensive programming standards, authentication protocols, secure token handling, and system integrity protection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Get in Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Interested in collaborating on a project, internship opportunities, or discussing software engineering? Let's connect.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+            <h3 class="info-title">Let's build something remarkable.</h3>
+            <p class="info-description">Open for internship opportunities, junior developer roles, and open-source projects.</p>
+
+            <div class="info-items-list">
+              <div class="contact-detail-row">
+                <div>
+                  <span class="detail-label">Email</span>
+                  <a href="mailto:abebaabayneh467@gmail.com" class="detail-val">abebaabayneh467@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-detail-row">
+                <div>
+                  <span class="detail-label">GitHub</span>
+                  <a href="https://github.com/Abay47" target="_blank" rel="noopener noreferrer" class="detail-val">github.com/Abay47</a>
+                </div>
+              </div>
+              <div class="contact-detail-row">
+                <div>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-val">Mattu / Ethiopia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form id="contactForm" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="userName">Your Name</label>
+                  <input type="text" id="userName" name="name" placeholder="e.g. Abayneh Abebe" required>
+                </div>
+                <div class="form-group">
+                  <label for="userEmail">Your Email</label>
+                  <input type="email" id="userEmail" name="email" placeholder="e.g. abay@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="userSubject">Subject</label>
+                <input type="text" id="userSubject" name="subject" placeholder="Project Inquiry / Opportunity" required>
+              </div>
+              <div class="form-group">
+                <label for="userMessage">Message</label>
+                <textarea id="userMessage" name="message" rows="5" cols="7" placeholder="Hello Abayneh..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                <span>Send Message</span>
+              </button>
+              <div class="form-status" id="formStatus" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="footer-logo">Abayneh Abebe</a>
+        <p class="footer-desc">Computer Science Student at Mattu University. Continuous learner and software builder.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Abayneh Abebe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CV Modal -->
+  <div class="modal-overlay" id="cvModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Abayneh Abebe &bull; Curriculum Vitae</h3>
+        <div class="modal-actions">
+          <button class="btn btn-primary btn-sm" id="printCvBtn">Print / Save PDF</button>
+          <button class="modal-close-btn" id="closeCvBtn">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body print-area" id="cvPrintContent">
+        <div class="cv-header-block">
+          <h2 class="cv-name">Abayneh Abebe</h2>
+          <div class="cv-subtitle">Computer Science Student &bull; Aspiring Software &amp; AI/ML Engineer</div>
+          <div class="cv-contact-line">Mattu University, Ethiopia &bull; abebaabayneh467@gmail.com &bull; github.com/Abay47</div>
+        </div>
+        <div class="cv-section">
+          <h4 class="cv-heading">EDUCATION</h4>
+          <p><strong>Mattu University, Ethiopia</strong> (Expected 2026)</p>
+          <p>Bachelor of Science in Computer Science</p>
+        </div>
+        <div class="cv-section">
+          <h4 class="cv-heading">SKILLS</h4>
+          <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript, React</p>
+          <p><strong>Backend:</strong> Node.js, PHP, MySQL, MongoDB</p>
+          <p><strong>Languages:</strong> c++, Java, JavaScript</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
